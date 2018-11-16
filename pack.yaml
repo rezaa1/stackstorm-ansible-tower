@@ -1,0 +1,10 @@
+---
+ref: ansibletower
+name: ansibletower
+description: StackStorm integration pack for working with Ansible Tower
+keywords:
+    - ansible
+    - tower
+version: 0.1.0
+author: Martez Reed
+email: martez.reed@greenreedtech.com
