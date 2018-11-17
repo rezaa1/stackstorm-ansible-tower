@@ -1,0 +1,15 @@
+---
+name: create_inventory
+runner_type: run-python
+description: "Create an inventory"
+enabled: true
+entry_point: "create_inventory.py"
+parameters:
+  inventory_name:
+    type: "string"
+    description: "Name of the inventory"
+    required: true
+  organization:
+    type: "string"
+    description: "Name of the organization to store the inventory"
+    required: true

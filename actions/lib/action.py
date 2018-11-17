@@ -14,5 +14,5 @@ class AnsibleTowerAction(Action):
         username = self.config['username']
         password = self.config['password']
 
-        settings.runtime_values(hostname, username, password)
+        client = tower_cli.conf.settings.runtime_values(hostname, username, password)
         return client

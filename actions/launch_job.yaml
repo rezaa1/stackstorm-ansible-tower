@@ -1,0 +1,11 @@
+---
+name: launch_job
+runner_type: run-python
+description: "Launch a new job based on a job template"
+enabled: true
+entry_point: "launch_job.py"
+parameters:
+  job_template:
+    type: "string"
+    description: "Name of the job template to launch new job"
+    required: true
