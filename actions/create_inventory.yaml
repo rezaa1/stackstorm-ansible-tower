@@ -1,6 +1,6 @@
 ---
 name: create_inventory
-runner_type: run-python
+runner_type: run-script
 description: "Create an inventory"
 enabled: true
 entry_point: "create_inventory.py"
